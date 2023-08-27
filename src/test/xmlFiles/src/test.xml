@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Load test" parallel="methods" thread-count="3">
+    <test verbose="2" preserve-order="true" name="D:\SeleniumBasic\src\test\java\Test\LoginPageTest">
+        <classes>
+            <class name="Test.MulDiv">
+            </class>
+        </classes>
+    </test>
+</suite>
